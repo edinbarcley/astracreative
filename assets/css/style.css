@@ -1,0 +1,296 @@
+:root {
+  --astra-black: #1A1A1A;
+  --astra-white: #FFFFFF;
+  --astra-pink: #FFB0BD;
+
+  --astra-maintitle: "Roboto", "Helvetica", "Arial", sans-serif;
+  --astra-title: "Roboto", "Helvetica", "Arial", sans-serif;
+  --astra-bodytext: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+body {
+  background-color: #FFFFFF;
+  color: #1A1A1A;
+}
+
+
+
+.logo {
+  width: 2rem;
+  padding: 2rem;
+  margin-left: 5rem;
+  margin-top: 2rem;
+}
+
+.burger {
+  width: 2rem;
+  padding: 2rem;
+  margin-right: 5rem;
+  margin-top: 2rem;
+}
+
+
+.primary {
+  padding-top: 20rem;
+  padding-bottom: 3rem;
+}
+
+.maintitle {
+  font-family: var(--astra-maintitle);
+  font-weight: 700;
+  font-size: 2.5em;
+  margin-left: 12.5rem;
+  line-height: 1.3em;
+}
+
+.kontakt {
+  font-family: var(--astra-bodytext);
+  font-weight: 300;
+  font-size: 1.3em;
+  margin-left: 12.5rem;
+  padding-top: 0px;
+}
+
+
+.flex-container-top {
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+}
+
+h1 span {
+  display: block;
+}
+
+
+a:link {
+  color: #1A1A1A;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1A1A1A;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #9F9F9F;
+  text-decoration: none;
+}
+
+a:active {
+  color: #9F9F9F;
+  text-decoration: none;
+}
+
+.title {
+  font-family: var(--astra-title);
+  font-weight: 700;
+  font-size: 2em;
+  margin-left: 15rem;
+  margin-top: 15rem;
+  margin-bottom: 0rem;
+}
+
+.prosjekter {
+  margin-left: 8.8rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.clients {
+  width: 33rem;
+  margin-top: 1rem;
+  margin-left: 15rem;
+  font-family: var(--astra-bodytext);
+  font-weight: 400;
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+
+img {
+  width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-container {
+  display: grid;
+  max-width: 60%;
+/*  border: solid 5px #FF0000; */
+  grid-template-columns: auto auto;
+}
+
+.grid-container img {
+  /*margin-top: 1.5rem;
+   width: 95.2%; */
+   padding: 1.2rem;
+   box-sizing: border-box;
+}
+
+
+#kontakt-oss {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 1rem;
+  margin-left: 23.7rem;
+}
+
+#kontakt-oss div {
+  margin-left: 1rem;
+  column-gap: 0rem;
+}
+
+#kontakt-oss img {
+  width: 12rem;
+}
+
+
+div.kontakt.section {
+  width: 10px;
+}
+
+.kontakt-section .right {
+  background-color: #FF0000 !important;
+}
+
+
+.portrett {
+  width: 5rem;
+}
+
+.kontakt-oss-title {
+  margin-left: 9.6rem;
+}
+
+.kontakt-section {
+  font-family: var(--astra-title);
+  line-height: 0.6em;
+  margin-left: 24.6rem;
+  margin-bottom: 20rem;
+  margin-left: 2rem;
+}
+
+.email {
+line-height: 1em;
+}
+
+@media all and (max-width: 1600px) {
+  .maintitle {
+    font-size: 2em;
+  }
+  .primary {
+    padding-top: 17rem;
+  }
+  .prosjekter {
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .title {
+    margin-left: 0;
+  }
+
+  h2.title {
+    margin-top: 8rem;
+  }
+  #kunder {
+    font-size: 1.6em;
+  }
+}
+
+@media all and (max-width: 1290px) {
+  .burger {
+    padding: 1rem;
+  }
+  .logo {
+    padding: 1rem;
+  }
+  .primary {
+    padding-top: 15rem;
+  }
+  .maintitle {
+    margin-left: 10rem;
+    font-size: 1.7em;
+  }
+  .kontakt {
+    margin-left: 10rem;
+    font-size: 1.1rem;
+  }
+
+  .clients {
+    width: 20rem;
+    font-size: 1.1em;
+  }
+}
+
+@media all and (max-width: 1080px) {
+  .burger {
+    padding: 0.3rem;
+    margin-right: 3rem;
+    width: 1.7rem;
+  }
+  .logo {
+    padding: 0.3rem;
+    margin-left: 3rem;
+    width: 1.7rem;
+  }
+  .primary {
+    padding-top: 10rem;
+  }
+  .maintitle {
+    margin-left: 8rem;
+    font-size: 1.4rem;
+  }
+  .kontakt {
+    margin-left: 8rem;
+    font-size: 0.9rem;
+  }
+
+  .clients {
+    width: 17rem;
+    font-size: 1em;
+    margin-left: 10rem;
+  }
+  #kunder {
+    margin-left: 10rem;
+  }
+}
+
+@media all and (max-width: 890px) {
+  .maintitle {
+    margin-left: 6rem;
+    padding-right: 4rem;
+  }
+  .primary {
+    padding-top: 8rem;
+  }
+  .kontakt {
+    margin-left: 6rem;
+  }
+
+  .clients {
+    width: 13rem;
+  }
+  #kunder {
+    font-size: 1.3em;
+  }
+}
+
+@media all and (max-width: 450px) {
+  .maintitle {
+    margin-left: 4rem;
+    padding-right: 4rem;
+  }
+  .primary {
+    padding-top: 5rem;
+  }
+  .kontakt {
+    margin-left: 4rem;
+  }
+}
