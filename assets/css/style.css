@@ -174,28 +174,19 @@ img {
    box-sizing: border-box;
 }
 
-#kontakt-oss {
-  display: flex;
-  justify-content: flex-start;
+.kontakt-oss {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
   margin-top: 1rem;
-  margin-left: 23.7rem;
+  margin-left: 0.4rem;
 }
 
-#kontakt-oss div {
-  margin-left: 1rem;
-  column-gap: 0rem;
-}
-
-#kontakt-oss img {
+.kontakt-oss img {
   width: 12rem;
 }
 
 div.kontakt.section {
   width: 10px;
-}
-
-.kontakt-section .right {
-  background-color: #FF0000 !important;
 }
 
 .portrett {
@@ -206,7 +197,7 @@ div.kontakt.section {
   margin-bottom: 3rem;
 }
 
-.kontakt-section {
+.kontakt-oss {
   font-family: var(--astra-title);
   line-height: 0.6em;
   margin-left: 24.6rem;
