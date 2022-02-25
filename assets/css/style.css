@@ -254,6 +254,9 @@ line-height: 1em;
     margin-top: 7rem;
     margin-left: 20rem;
   }
+  #kunder {
+    margin-top: 8rem;
+  }
   .logo {
     padding: 1.8rem;
   }
@@ -307,6 +310,9 @@ line-height: 1em;
   .maintitle {
     font-size: 1.3em;
     margin-left: 16rem;
+  }
+  #kunder {
+    margin-top: 6rem;
   }
   .grid-container {
       max-width: 70%;
@@ -383,6 +389,9 @@ line-height: 1em;
     font-size: 1.2em;
     margin-top: 4rem;
     margin-left: 12rem;
+  }
+  #kunder {
+    margin-top: 4rem;
   }
   .logo {
     padding: 1rem;
