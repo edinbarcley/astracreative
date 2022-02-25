@@ -176,9 +176,31 @@ img {
 
 .kontakt-oss {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto;
+  max-width: 30rem;
   margin-top: 1rem;
   margin-left: 0.4rem;
+}
+
+.kontakt-section-left {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.kontakt-section-left-text {
+  margin-top: 0.7rem;
+  margin-left: 2rem;
+}
+
+.kontakt-section-right {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: 8rem;
+}
+
+.kontakt-section-right-text {
+  margin-top: 0.7rem;
+  margin-left: 2rem;
 }
 
 .kontakt-oss img {
@@ -253,9 +275,6 @@ line-height: 2.5em;
   #contact {
     margin-left: 10rem;
   }
-  #kunder {
-    font-size: 1.6em;
-  }
   #contact h2 {
     margin-left: 0rem;
   }
@@ -263,7 +282,10 @@ line-height: 2.5em;
     margin-left: 0rem;
   }
   .kontakt-oss-title {
-    margin-left: 1rem;
+    margin-left: 4rem;
+  }
+  .kontakt-oss {
+    margin-left: 4rem;
   }
 }
 
@@ -276,7 +298,7 @@ line-height: 2.5em;
     margin-left: 18rem;
   }
   h2.title {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   }
   #contact {
     margin-left: 8rem;
@@ -304,10 +326,24 @@ line-height: 2.5em;
      box-sizing: border-box;
   }
   h2.title {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   }
   #contact {
-    margin-left: 6rem;
+    margin-left: 13rem;
+  }
+  .kontakt-oss-title {
+    margin-left: 0rem;
+  }
+  .kontakt-oss {
+    margin-left: 0rem;
+  }
+  .kontakt-oss {
+  grid-template-columns: auto;
+  }
+
+  .kontakt-section-right{
+    margin-top: 3rem;
+    margin-left: 0rem;
   }
 }
 
@@ -354,7 +390,10 @@ line-height: 2.5em;
     column-count: 1;
   }
   h2.title {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  }
+  #contact {
+    margin-left: 10rem;
   }
 }
 
@@ -388,7 +427,10 @@ line-height: 2.5em;
      box-sizing: border-box;
   }
   h2.title {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  }
+  #contact {
+    margin-left: 8rem;
   }
 }
 
@@ -402,7 +444,28 @@ line-height: 2.5em;
     margin-right: 8rem;
   }
   .grid-container {
-      max-width: 76%;
+    max-width: 76%;
+    grid-template-columns: auto;
+  }
+  #contact {
+    margin-left: 6rem;
+  }
+  .kontakt-oss img {
+    max-width: 10rem;
+  }
+  .kontakt-section-left-image {
+    max-width: 7rem;
+  }
+  .kontakt-section-left-text {
+    margin-top: 0.3rem;
+    margin-left: 0rem;
+  }
+  .kontakt-section-right-image {
+    max-width: 7rem;
+  }
+  .kontakt-section-right-text {
+    margin-top: 0.3rem;
+    margin-left: 0rem;
   }
 }
 
@@ -420,7 +483,37 @@ line-height: 2.5em;
   }
   .grid-container {
     max-width: 92%;
-    grid-template-columns: auto;
+  }
+  #contact {
+    margin-left: 2rem;
+  }
+  .kontakt-section-left-text {
+    margin-left: 0rem;
+  }
+  .kontakt-section-right-text {
+    margin-left: 0rem;
+  }
+}
+@media all and (max-width: 530px){
+  .kontakt-oss img {
+    max-width: 8rem;
+  }
+  .name {
+    margin-top: 1.4rem;
+    font-size: 1.1em;
+  }
+  p,
+  a {
+    font-size: 0.9em;
+  }
+  .maintitle a {
+    font-size: 1em;
+  }
+  .kontakt-section-left {
+    max-width: 23rem;
+  }
+  .kontakt-section-right {
+    max-width: 23rem;
   }
 }
 @media all and (max-width: 500px) {
@@ -428,5 +521,33 @@ line-height: 2.5em;
     font-size: 1.2em;
     margin-left: 2rem;
     margin-right: 2rem;
+  }
+}
+@media all and (max-width: 400px) {
+  .kontakt-oss img {
+    max-width: 7rem;
+  }
+  .name {
+    margin-top: 1.2rem;
+    font-size: 0.9em;
+  }
+  p,
+  a {
+    font-size: 0.7em;
+  }
+  .kontakt-section-left {
+    max-width: 18rem;
+  }
+  .kontakt-section-right {
+    max-width: 18rem;
+  }
+  .kontakt-section-left-image {
+    max-width: 30rem;
+  }
+  .kontakt-section-right-image {
+    max-width: 30rem;
+  }
+  .maintitle a {
+
   }
 }
