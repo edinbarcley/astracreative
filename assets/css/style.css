@@ -255,7 +255,7 @@ line-height: 1em;
     margin-left: 20rem;
   }
   #kunder {
-    margin-top: 8rem;
+    margin-top: 10rem;
   }
   .logo {
     padding: 1.8rem;
@@ -292,7 +292,7 @@ line-height: 1em;
 
 @media all and (max-width: 1450px) {
   .video-banner {
-    height: 60vh;
+    height: 70vh;
   }
   .maintitle {
     font-size: 1.5em;
@@ -312,7 +312,7 @@ line-height: 1em;
     margin-left: 16rem;
   }
   #kunder {
-    margin-top: 6rem;
+    margin-top: 8rem;
   }
   .grid-container {
       max-width: 70%;
@@ -383,7 +383,7 @@ line-height: 1em;
 
 @media all and (max-width: 950px) {
   .video-banner {
-    height: 55vh;
+    height: 70vh;
   }
   .maintitle {
     font-size: 1.2em;
@@ -391,7 +391,7 @@ line-height: 1em;
     margin-left: 12rem;
   }
   #kunder {
-    margin-top: 8rem;
+    margin-top: 9rem;
   }
   .logo {
     padding: 1rem;
@@ -417,7 +417,7 @@ line-height: 1em;
 
 @media all and (max-width: 750px) {
   .video-banner {
-    height: 50vh;
+    height: 70vh;
   }
   .maintitle {
     font-size: 1.2em;
@@ -430,9 +430,6 @@ line-height: 1em;
 }
 
 @media all and (max-width: 630px) {
-  .video-banner {
-    height: 50vh;
-  }
   .flex-container-top {
     width: 98%;
     display: flex;
