@@ -251,7 +251,7 @@ line-height: 1em;
   }
   .maintitle {
     font-size: 1.8em;
-    margin-top: 7rem;
+    margin-top: 8rem;
     margin-left: 20rem;
   }
   #kunder {
@@ -383,15 +383,15 @@ line-height: 1em;
 
 @media all and (max-width: 950px) {
   .video-banner {
-    height: 50vh;
+    height: 55vh;
   }
   .maintitle {
     font-size: 1.2em;
-    margin-top: 4rem;
+    margin-top: 6rem;
     margin-left: 12rem;
   }
   #kunder {
-    margin-top: 4rem;
+    margin-top: 8rem;
   }
   .logo {
     padding: 1rem;
@@ -417,7 +417,7 @@ line-height: 1em;
 
 @media all and (max-width: 750px) {
   .video-banner {
-    height: 45vh;
+    height: 50vh;
   }
   .maintitle {
     font-size: 1.2em;
@@ -431,7 +431,7 @@ line-height: 1em;
 
 @media all and (max-width: 630px) {
   .video-banner {
-    height: 40vh;
+    height: 50vh;
   }
   .flex-container-top {
     width: 98%;
