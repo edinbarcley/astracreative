@@ -122,16 +122,6 @@ a:active {
   margin-bottom: 0rem;
 }
 
-.clients {
-  width: 33rem;
-  margin-top: 1rem;
-  margin-left: 16.2rem;
-  font-family: var(--astra-bodytext);
-  font-weight: 400;
-  font-size: 1.2em;
-  line-height: 1.5em;
-}
-
 .kunder img {
   width: 26rem;
   height: 33rem;
@@ -292,7 +282,7 @@ line-height: 1em;
 
 @media all and (max-width: 1450px) {
   .video-banner {
-    height: 70vh;
+    height: 60vh;
   }
   .maintitle {
     font-size: 1.5em;
@@ -383,7 +373,7 @@ line-height: 1em;
 
 @media all and (max-width: 950px) {
   .video-banner {
-    height: 70vh;
+    height: 5vh;
   }
   .maintitle {
     font-size: 1.2em;
@@ -417,7 +407,7 @@ line-height: 1em;
 
 @media all and (max-width: 750px) {
   .video-banner {
-    height: 70vh;
+    height: 50vh;
   }
   .maintitle {
     font-size: 1.2em;
@@ -442,7 +432,8 @@ line-height: 1em;
     margin-right: 4rem;
   }
   .grid-container {
-      max-width: 84%;
+    max-width: 92%;
+    grid-template-columns: auto;
   }
 }
 @media all and (max-width: 500px) {
