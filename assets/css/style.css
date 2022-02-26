@@ -333,16 +333,16 @@ line-height: 2.5em;
     margin-left: 0rem;
   }
   .kontakt-oss {
-    margin-left: 0rem;
-  }
-  .kontakt-oss {
   grid-template-columns: auto;
+    margin-left: 0rem;
+    margin-bottom: 10rem;
   }
 
   .kontakt-section-right{
     margin-top: 3rem;
     margin-left: 0rem;
   }
+
 }
 
 @media all and (max-width: 1120px) {
@@ -392,6 +392,9 @@ line-height: 2.5em;
   }
   #contact {
     margin-left: 10rem;
+  }
+  .kontakt-oss {
+    margin-bottom: 8rem;
   }
 }
 
@@ -516,6 +519,9 @@ line-height: 2.5em;
   }
   .kontakt-section-right {
     max-width: 23rem;
+  }
+  .kontakt-oss {
+    margin-bottom: 5rem;
   }
 }
 @media all and (max-width: 500px) {
