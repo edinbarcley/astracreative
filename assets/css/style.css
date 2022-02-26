@@ -273,6 +273,7 @@ line-height: 2.5em;
     margin-top: 2rem;
   }
   #contact {
+    margin-top: 8rem;
     margin-left: 10rem;
   }
   #contact h2 {
@@ -399,7 +400,7 @@ line-height: 2.5em;
 
 @media all and (max-width: 950px) {
   .video-banner {
-    height: 5vh;
+    height: 50vh;
   }
   .maintitle {
     font-size: 1.2em;
@@ -440,8 +441,12 @@ line-height: 2.5em;
   }
   .maintitle {
     font-size: 1.2em;
+    margin-top: 3rem;
     margin-left: 8rem;
     margin-right: 8rem;
+  }
+  #kunder {
+    margin-top: 5rem;
   }
   .grid-container {
     max-width: 76%;
@@ -521,6 +526,9 @@ line-height: 2.5em;
     font-size: 1.2em;
     margin-left: 2rem;
     margin-right: 2rem;
+  }
+  #contact {
+    margin-top: 6rem;
   }
 }
 @media all and (max-width: 400px) {
