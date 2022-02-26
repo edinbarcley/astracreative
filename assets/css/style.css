@@ -53,6 +53,7 @@ body {
 .video-banner {
   display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 
 .banner {
