@@ -42,10 +42,6 @@ body {
 }
 */
 
-.nav-ul.show {
-  display: flex;
-}
-
 #nav {
   text-decoration: none;
 }
@@ -524,12 +520,12 @@ line-height: 2.5em;
 }
 @media all and (max-width: 500px) {
   .maintitle {
-    font-size: 1.2em;
+    font-size: 13pt;
     margin-left: 2rem;
     margin-right: 2rem;
   }
   #contact {
-    margin-top: 6rem;
+    margin-top: 10rem;
   }
 }
 @media all and (max-width: 400px) {
@@ -555,8 +551,5 @@ line-height: 2.5em;
   }
   .kontakt-section-right-image {
     max-width: 30rem;
-  }
-  .maintitle a {
-
   }
 }
