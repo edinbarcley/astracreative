@@ -498,6 +498,9 @@ line-height: 2.5em;
   .kontakt-section-right-text {
     margin-left: 0rem;
   }
+  .kontakt-oss {
+    margin-bottom: 12rem;
+  }
 }
 @media all and (max-width: 530px){
   .kontakt-oss img {
@@ -521,7 +524,7 @@ line-height: 2.5em;
     max-width: 23rem;
   }
   .kontakt-oss {
-    margin-bottom: 5rem;
+    margin-bottom: 8rem;
   }
 }
 @media all and (max-width: 500px) {
