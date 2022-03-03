@@ -243,7 +243,7 @@ line-height: 2.5em;
 
 @media all and (max-width: 1600px) {
   .video-banner {
-    height: 70vh;
+    height: 82vh;
   }
   .maintitle {
     font-size: 1.8em;
@@ -289,7 +289,7 @@ line-height: 2.5em;
 
 @media all and (max-width: 1450px) {
   .video-banner {
-    height: 60vh;
+    height: 75vh;
   }
   .maintitle {
     font-size: 1.5em;
